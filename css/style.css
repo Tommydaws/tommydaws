@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img-grey {
+  width: 422px;
+  padding: 100px 0px 0px;
+}
+
+.img-blue {
+  width: 435px;
+  padding: 0px 0px 0px;
+}
+
+.img-purple {
+  width: 400px;
+  padding: 0px 0px 0px;
+}
+
+.img-red {
+  width: 342.5px;
+  transform:
+  padding: 0px 0px 0px;
+}
+
+.wrapper-grey {
+  width: 100%;
+}
+
+.wrapper-blue {
+  width: 100%;
+}
+
+.wrapper-purple {
+  width: 100%;
+}
+
+.wrapper-red {
+  width: 100%;
+}
+
+.wrapper-grey {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.wrapper-blue {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.wrapper-purple {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.wrapper-red {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.wrapper-grey {
+    position: relative;
+}
+.wrapper-grey:after
+{
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.wrapper-grey{
+  z-index: 100;
+}
+
+.wrapper-blue{
+    display: inline-block;
+    position: relative;
+}
+.wrapper-blue{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 430px;
+    left: 518.5px;
+    z-index: 103;
+}
+
+.wrapper-purple{
+    display: inline-block;
+    position: relative;
+}
+.wrapper-purple{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 155px;
+    left: 240px;
+    z-index: 101;
+}
+
+.wrapper-red{
+    display: inline-block;
+    position: relative;
+}
+.wrapper-red{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 390.5px;
+    left: 282.5px;
+    z-index: 102;
+}
+
+.wrapper-purple :hover{
+  width: 113%;
+  z-index: 110;
+}
+
+.wrapper-blue :hover{
+  width: 130%;
+  z-index: 110;
+}
+
+.wrapper-grey :hover{
+  width: 120%;
+  z-index: 110;
+}
+
+.wrapper-grey #flower {
+ display: none;
+ position: absolute;
+ width: 250px;
+ height: 250px;
+ left: 200px;
+ top: 100px;
+}
+
+.wrapper-grey :hover #flower{
+  display: block;
+}
+
+.wrapper-purple #glitch {
+ display: none;
+ position: absolute;
+ left: 0px;
+ top: 70px;
+}
+
+.wrapper-purple :hover #glitch{
+  display: block;
+  width: 85%;
+}
+
+.wrapper-blue #clouds {
+ display: none;
+ position: absolute;
+ left: 99.5px;
+ top: 70px;
+}
+
+.wrapper-blue :hover #clouds{
+  display: block;
+  width: 85%;
+}
+
+.wrapper-red {
+width: 10px;
+height: 10px;
+background-color: red;
+position: relative;
+-webkit-animation-name: colorcirles;
+-webkit-animation-duration: 6s;
+animation-name: colorcirles;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes colorcirles {
+0%   {background-color:red; left:0px; top:-100px;}
+25%  {background-color:yellow; left:200px; top:-200px;}
+50%  {background-color:blue; left:284px; top:-445px;}
+75%  {background-color:green; left:0px; top:-350px;}
+100% {background-color:red; left:0px; top:-100px;}
+}
+
+
+.img-1916{
+  width: 1200px;
+  padding: 0px 0px 0px;
+  margin: 0 auto;
+}
+.img-1916{
+  position: relative;
+}
+.img-1916{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.img-frank{
+  width: 1200px;
+  padding: 0px 0px 0px;
+  margin: 0 auto;
+}
+.img-frank{
+  position: relative;
+}
+.img-frank{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.img-walnut{
+  width: 1200px;
+  padding: 0px 0px 0px;
+  margin: 0 auto;
+}
+
+.img-table{
+  width: 1200px;
+  padding: 0px 0px 0px;
+  margin: 0 auto;
+}
+.img-table{
+  position: relative;
+}
+.img-table{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.walnut {
+    position: absolute;
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-walnut {
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("file:///Users/jeanloo/Desktop/Web%20Programming/new%20site%20pics/ezgif.com-resize.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.roses {
+  background-image: url("file:///Users/jeanloo/Desktop/Web%20Programming/new%20site%20pics/ezgif.com-resizeroses.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.p{
+  line-height: 800px;
+  margin: auto;
+  top: 50%;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+@import url('https://fonts.google.com/specimen/Bad+Script');
+
+
+#parent {
+  height: 40px;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Bad Script', monospace;
+  font-size: 28px;
+  color: rgba(200,200,255,.75);
+}
+
+#border {
+  border-bottom: solid 3px rgba(0,255,0,.75);
+  position: absolute;
+  right: -7px;
+  width: 20px;
+}
+
+/* Animation */
+#parent {
+  animation: animated-text 2s steps(30,end) 2s 1 normal both
+}
+
+#border {
+   animation: animated-cursor 600ms steps(30,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 600px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,255,0,.75);}
+  to{border-bottom-color: transparent;}
+}
+
+.clouds {
+  background-image: url("file:///Users/jeanloo/Desktop/Web%20Programming/new%20site%20pics/ezgif.com-resizerain.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clouds2 {
+  background-image: url("file:///Users/jeanloo/Desktop/Web%20Programming/new%20site%20pics/ezgif.com-resizerain.gif");
+  right: 100px;
+}
+
+.clouds3 {
+  background-image: url("file:///Users/jeanloo/Desktop/Web%20Programming/new%20site%20pics/ezgif.com-resizerain.gif");
+  right: 100px;
+}
+
+.p1{
+  line-height: 500px;
+  margin: auto;
+  top: 50%;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.colors {
+width: 10px;
+height: 10px;
+background-color: red;
+position: relative;
+-webkit-animation-name: colorcirles;
+-webkit-animation-duration: 6s;
+animation-name: colorcirles;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes colorcirles {
+0%   {background-color:red; left:0px; top:300px;}
+25%  {background-color:yellow; left:500px; top:1px;}
+50%  {background-color:blue; left:200px; top:50px;}
+75%  {background-color:green; left:800px; top:200px;}
+100% {background-color:red; left:0px; top:300px;}
+}
+
+.colors2 {
+background-color: red;
+position: relative;
+-webkit-animation-name: colorcirles;
+-webkit-animation-duration: 6s;
+animation-name: colorcirles;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes colorcirles2 {
+0%   {background-color:red; left:1000px; top:900px;}
+25%  {background-color:yellow; left:500px; top:1px;}
+50%  {background-color:blue; left:200px; top:50px;}
+75%  {background-color:green; left:800px; top:200px;}
+100% {background-color:red; left:0px; top:300px;}
+}
